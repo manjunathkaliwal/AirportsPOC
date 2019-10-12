@@ -104,6 +104,10 @@
 		<data>
 		WclOTQyDfPDOGEjZboBz+yfxGVQ=
 		</data>
+		<key>Frameworks/libswiftMapKit.dylib</key>
+		<data>
+		MSx6TGGqZV0Y1Gm8h02+mH2e0jk=
+		</data>
 		<key>Frameworks/libswiftMetal.dylib</key>
 		<data>
 		q6qpoqLxtRrru4zloX0b0xHIJVw=
@@ -130,7 +134,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UGvnvW/N7SUyS5l951l8pZOcLUw=
+		FGbTTC7sGwDSJIWyA9C0WRaaVk8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -434,6 +438,17 @@
 			<key>hash2</key>
 			<data>
 			6SyHvvl3dAOzLH6bFEeF41TPcUHS3iYOdFK7I0FEU6M=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftMapKit.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MSx6TGGqZV0Y1Gm8h02+mH2e0jk=
+			</data>
+			<key>hash2</key>
+			<data>
+			2psODzt4NFgzJxp2UKsus8+hJcWi2SlY4LoiS0fiF1k=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftMetal.dylib</key>

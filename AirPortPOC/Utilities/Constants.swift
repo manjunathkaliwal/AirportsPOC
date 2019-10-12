@@ -15,7 +15,8 @@ public struct Constants {
     public static let kListCellrowHeight: CGFloat = 70.0
     public static let kDetailsCellrowHeight: CGFloat = 125.0
     public static let kEmptyData  = 0
-    
+    public static let kNearestAirportsCount  = 5
+
 }
 
 /// The purpose of the `ServiceUrl` is identify the type of the service URL being used for services

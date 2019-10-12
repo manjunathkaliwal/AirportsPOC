@@ -21,8 +21,8 @@ depends-top-level:
 - "UILabel"
 - "UITableViewCell"
 depends-member:
-- !private ["10AirPortPOC11AirportDataC", "city"]
 - !private ["10AirPortPOC11AirportDataC", "country"]
+- !private ["10AirPortPOC11AirportDataC", "name"]
 - !private ["10AirPortPOC11AirportDataC", "runway_length"]
 - ["10AirPortPOC21AirportsTableViewCellC", "AirportData"]
 - ["10AirPortPOC21AirportsTableViewCellC", "Bool"]
@@ -79,14 +79,14 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "runawayLabel"]
 - !private ["s23CustomStringConvertibleP", "setSelected"]
 - !private ["s23CustomStringConvertibleP", "text"]
-- !private ["Se", "city"]
 - !private ["Se", "country"]
 - !private ["Se", "localized"]
+- !private ["Se", "name"]
 - !private ["Se", "runway_length"]
 - !private ["Se", "text"]
-- !private ["SE", "city"]
 - !private ["SE", "country"]
 - !private ["SE", "localized"]
+- !private ["SE", "name"]
 - !private ["SE", "runway_length"]
 - !private ["SE", "text"]
 - ["SQ", ""]
@@ -422,6 +422,7 @@ depends-external:
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -434,6 +435,7 @@ depends-external:
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "0e6b39f404ddeeb258b5a8b17d15e98e"

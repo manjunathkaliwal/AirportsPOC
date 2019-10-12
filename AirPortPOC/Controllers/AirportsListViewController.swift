@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 /**
  The purpose of the ViewController is to display the list of TopNews with title on the  UITableView.
@@ -75,9 +76,26 @@ class AirportsListViewController: UIViewController,UISearchBarDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if  segue.identifier == String(describing: AirPortDetailViewController.self) ,let destination = segue.destination as? AirPortDetailViewController{
-            destination.selectedIndex = (sender as! IndexPath).row
-            destination.listdataSource = self.listdataSource
+            destination.getNearestAirports = getNearestAirportsByList(selectedIndex: (sender as! IndexPath).row)
         }
+    }
+    
+    // MARK: - Get Top 5 Nearest Airports from the location
+    func getNearestAirportsByList(selectedIndex: NSInteger) -> [AirportData] {
+        
+        var selectedModel:AirportData?
+        var nearestAirports =  self.listdataSource
+        if self.searchMode && self.filteredSearchResultList != nil {
+            selectedModel = self.filteredSearchResultList?[selectedIndex]
+        }else{
+            selectedModel = self.listdataSource[selectedIndex]
+        }
+        if let latitude = selectedModel?.lat ,let longitude = selectedModel?.lon {
+            selectedLocation = CLLocation(latitude: (latitude as NSString).doubleValue, longitude: (longitude as NSString).doubleValue)
+            nearestAirports.sort { $0.distance < $1.distance }
+            return Array(nearestAirports.prefix(Constants.kNearestAirportsCount))
+        }
+        return Array(nearestAirports.prefix(Constants.kNearestAirportsCount))
     }
     
     // MARK: - Tap Action
@@ -87,6 +105,7 @@ class AirportsListViewController: UIViewController,UISearchBarDelegate {
             searchBarCancelButtonClicked(self.searchBar)
             return
         }
+        self.listTableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
         self.filteredSearchResultList = self.listdataSource
         self.searchMode = true
         self.listTableView.tableHeaderView = searchBar

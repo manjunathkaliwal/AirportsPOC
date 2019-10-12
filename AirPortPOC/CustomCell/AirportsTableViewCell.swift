@@ -26,9 +26,12 @@ class AirportsTableViewCell: UITableViewCell {
     }
     
     func configureCell(airportInfo: AirportData){
-        if let name = airportInfo.city ,let countryname = airportInfo.country,let runawayLength = airportInfo.runway_length{
+        if let name = airportInfo.name ,let countryname = airportInfo.country{
             nameLabel?.text = name
             countryLabel?.text = countryname
+        }
+        
+        if let runawayLength = airportInfo.runway_length {
             runawayLabel.text = "RUNAWAY_LENGTH".localized(withComment: "RUNAWAY_LENGTH") + runawayLength
         }
     }

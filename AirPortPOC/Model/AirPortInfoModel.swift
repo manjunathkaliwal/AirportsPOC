@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import MapKit
+
+var selectedLocation:CLLocation?
 
 //{
 //    "code": "AAA",
@@ -50,7 +53,20 @@ class AirportData :  Codable{
     var direct_flights : String?
     var carriers       : String?
     
+    var distance: Double {
+        get {
+            if let latitude = lat ,let longitude = lon , let cityLocation = selectedLocation {
+                return CLLocation(latitude: (latitude as NSString).doubleValue, longitude: (longitude as NSString).doubleValue).distance(from: cityLocation)
+            }
+            return 0
+        }
+    }
     
+    public var coordinate: CLLocationCoordinate2D { get {
+        let coordinate = CLLocationCoordinate2D(latitude:  (lat! as NSString).doubleValue, longitude: (lon! as NSString).doubleValue)
+        return coordinate
+        }
+    }
 }
 
 

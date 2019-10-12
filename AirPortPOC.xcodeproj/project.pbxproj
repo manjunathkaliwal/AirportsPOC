@@ -174,8 +174,8 @@
 		5FAC5078220EB918002F4311 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5FAC5089220EBE4D002F4311 /* AirPortDetailViewController.swift */,
 				5FAC507C220EBB4D002F4311 /* AirportsListViewController.swift */,
+				5FAC5089220EBE4D002F4311 /* AirPortDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

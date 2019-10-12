@@ -1,5 +1,6 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "selectedLocation"
 - "AirportData"
 provides-nominal:
 - "10AirPortPOC11AirportDataC"
@@ -9,20 +10,32 @@ provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "AirportData"
+- "CLLocation"
+- "CLLocationCoordinate2D"
+- "CastingPrecedence"
 - "Codable"
+- "Double"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- !private "NSString"
 - "String"
 - !private "StringLiteralType"
+- "selectedLocation"
 - !private "~="
 depends-member:
+- !private ["10AirPortPOC11AirportDataC", "CLLocation"]
+- ["10AirPortPOC11AirportDataC", "CLLocationCoordinate2D"]
+- ["10AirPortPOC11AirportDataC", "Double"]
+- !private ["10AirPortPOC11AirportDataC", "NSString"]
 - ["10AirPortPOC11AirportDataC", "String"]
 - ["10AirPortPOC11AirportDataC", "carriers"]
 - ["10AirPortPOC11AirportDataC", "city"]
 - ["10AirPortPOC11AirportDataC", "code"]
+- ["10AirPortPOC11AirportDataC", "coordinate"]
 - ["10AirPortPOC11AirportDataC", "country"]
 - ["10AirPortPOC11AirportDataC", "deinit"]
 - ["10AirPortPOC11AirportDataC", "direct_flights"]
+- ["10AirPortPOC11AirportDataC", "distance"]
 - ["10AirPortPOC11AirportDataC", "elev"]
 - ["10AirPortPOC11AirportDataC", "email"]
 - ["10AirPortPOC11AirportDataC", "encode"]
@@ -33,11 +46,18 @@ depends-member:
 - ["10AirPortPOC11AirportDataC", "name"]
 - ["10AirPortPOC11AirportDataC", "phone"]
 - ["10AirPortPOC11AirportDataC", "runway_length"]
+- !private ["10AirPortPOC11AirportDataC", "selectedLocation"]
 - ["10AirPortPOC11AirportDataC", "state"]
 - ["10AirPortPOC11AirportDataC", "type"]
 - ["10AirPortPOC11AirportDataC", "tz"]
 - ["10AirPortPOC11AirportDataC", "url"]
 - ["10AirPortPOC11AirportDataC", "woeid"]
+- !private ["So10CLLocationC", "distance"]
+- !private ["So10CLLocationC", "init"]
+- !private ["So22CLLocationCoordinate2DV", "init"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "init"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -53,6 +73,8 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
 - ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
 - ["s28CustomDebugStringConvertibleP", "hash"]
 - ["s28CustomDebugStringConvertibleP", "hashValue"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -63,11 +85,15 @@ depends-member:
 - ["s23CustomStringConvertibleP", "_rawHashValue"]
 - ["s23CustomStringConvertibleP", "debugDescription"]
 - ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
 - ["s23CustomStringConvertibleP", "hash"]
 - ["s23CustomStringConvertibleP", "hashValue"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
 - ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "CLLocation"]
+- !private ["Se", "CLLocationCoordinate2D"]
 - ["Se", ""]
 - !private ["Se", "carriers"]
 - !private ["Se", "city"]
@@ -84,12 +110,15 @@ depends-member:
 - !private ["Se", "name"]
 - !private ["Se", "phone"]
 - !private ["Se", "runway_length"]
+- !private ["Se", "selectedLocation"]
 - !private ["Se", "state"]
 - !private ["Se", "type"]
 - !private ["Se", "tz"]
 - !private ["Se", "url"]
 - !private ["Se", "woeid"]
 - !private ["s7DecoderP", "container"]
+- !private ["SE", "CLLocation"]
+- !private ["SE", "CLLocationCoordinate2D"]
 - ["SE", ""]
 - !private ["SE", "carriers"]
 - !private ["SE", "city"]
@@ -106,6 +135,7 @@ depends-member:
 - !private ["SE", "name"]
 - !private ["SE", "phone"]
 - !private ["SE", "runway_length"]
+- !private ["SE", "selectedLocation"]
 - !private ["SE", "state"]
 - !private ["SE", "type"]
 - !private ["SE", "tz"]
@@ -117,16 +147,23 @@ depends-member:
 - ["SQ", "_rawHashValue"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "doubleValue"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
 - ["SQ", "intValue"]
 - ["SQ", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "doubleValue"]
+- !private ["s26ExpressibleByStringLiteralP", "doubleValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "doubleValue"]
 - ["SH", "=="]
 - !private ["SH", ""]
 - ["SH", "_rawHashValue"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
+- !private ["SH", "distance"]
+- !private ["SH", "doubleValue"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "init"]
@@ -137,8 +174,36 @@ depends-member:
 - !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
 - !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "distance"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "doubleValue"]
+- !private ["So21NSItemProviderWritingP", "doubleValue"]
+- !private ["So16NSMutableCopyingP", "doubleValue"]
+- !private ["So8NSObjectC", "distance"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "distance"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "distance"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "doubleValue"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
 - "10AirPortPOC11AirportDataC"
+- !private "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
 - "s9CodingKeyP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
@@ -147,12 +212,28 @@ depends-nominal:
 - "SE"
 - !private "s7EncoderP"
 - "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "s6HasherV"
 - !private "s22KeyedDecodingContainerV"
 - !private "s30KeyedDecodingContainerProtocolP"
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -167,6 +248,7 @@ depends-external:
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -179,6 +261,7 @@ depends-external:
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d72aab147d9f39346f8696b5f3266152"
+interface-hash: "c733f32fb0937c925a487bbe072378b4"
