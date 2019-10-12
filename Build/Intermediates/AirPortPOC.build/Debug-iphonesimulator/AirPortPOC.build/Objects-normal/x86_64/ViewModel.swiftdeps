@@ -1,0 +1,302 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewModelDelegate"
+- "ViewModel"
+provides-nominal:
+- "10AirPortPOC17ViewModelDelegateP"
+- "10AirPortPOC9ViewModelC"
+provides-member:
+- ["10AirPortPOC17ViewModelDelegateP", ""]
+- ["10AirPortPOC9ViewModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AirportData"
+- "AnyObject"
+- "Array"
+- !private "AssignmentPrecedence"
+- !private "Bool"
+- "NSObject"
+- "String"
+- "ViewModel"
+- "ViewModelDelegate"
+- !private "WebServiceManager"
+depends-member:
+- !private ["10AirPortPOC11AirportDataC", "city"]
+- !private ["10AirPortPOC11AirportDataC", "deinit"]
+- !private ["Sa", "filter"]
+- ["Sa", "init"]
+- !private ["SK", "filter"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "localizedCaseInsensitiveContains"]
+- ["s7CVarArgP", "AirportData"]
+- !private ["s7CVarArgP", "WebServiceManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "airportdata"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "localizedCaseInsensitiveContains"]
+- !private ["s7CVarArgP", "viewModelDelegate"]
+- !private ["Sl", "filter"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "localizedCaseInsensitiveContains"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "localizedCaseInsensitiveContains"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "AirportData"]
+- !private ["s28CustomDebugStringConvertibleP", "WebServiceManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "airportdata"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedCaseInsensitiveContains"]
+- !private ["s28CustomDebugStringConvertibleP", "viewModelDelegate"]
+- !private ["s17CustomReflectableP", "filter"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "localizedCaseInsensitiveContains"]
+- ["s23CustomStringConvertibleP", "AirportData"]
+- !private ["s23CustomStringConvertibleP", "WebServiceManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "airportdata"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "localizedCaseInsensitiveContains"]
+- !private ["s23CustomStringConvertibleP", "viewModelDelegate"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "city"]
+- !private ["Se", "filter"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "localizedCaseInsensitiveContains"]
+- !private ["SE", "city"]
+- !private ["SE", "filter"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "localizedCaseInsensitiveContains"]
+- ["SQ", "AirportData"]
+- !private ["SQ", "WebServiceManager"]
+- ["SQ", ""]
+- !private ["SQ", "airportdata"]
+- !private ["SQ", "filter"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "localizedCaseInsensitiveContains"]
+- !private ["SQ", "viewModelDelegate"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localizedCaseInsensitiveContains"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "localizedCaseInsensitiveContains"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "localizedCaseInsensitiveContains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localizedCaseInsensitiveContains"]
+- ["SH", "AirportData"]
+- !private ["SH", "WebServiceManager"]
+- ["SH", ""]
+- !private ["SH", "airportdata"]
+- !private ["SH", "filter"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "localizedCaseInsensitiveContains"]
+- !private ["SH", "viewModelDelegate"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "localizedCaseInsensitiveContains"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "localizedCaseInsensitiveContains"]
+- !private ["SM", "filter"]
+- ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "localizedCaseInsensitiveContains"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "localizedCaseInsensitiveContains"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "localizedCaseInsensitiveContains"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "localizedCaseInsensitiveContains"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "localizedCaseInsensitiveContains"]
+- ["So8NSObjectC", "AirportData"]
+- ["So8NSObjectC", "Array"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "ViewModelDelegate"]
+- !private ["So8NSObjectC", "WebServiceManager"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "airportdata"]
+- ["So8NSObjectC", "filterBySearchKeywords"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "localizedCaseInsensitiveContains"]
+- ["So8NSObjectC", "viewModelDelegate"]
+- ["So8NSObjectP", "AirportData"]
+- !private ["So8NSObjectP", "WebServiceManager"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "airportdata"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "localizedCaseInsensitiveContains"]
+- !private ["So8NSObjectP", "viewModelDelegate"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "localizedCaseInsensitiveContains"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "localizedCaseInsensitiveContains"]
+- !private ["Sk", "filter"]
+- ["Sk", "init"]
+- !private ["Sm", "filter"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "localizedCaseInsensitiveContains"]
+- !private ["ST", "filter"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "localizedCaseInsensitiveContains"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "localizedCaseInsensitiveContains"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "localizedCaseInsensitiveContains"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "localizedCaseInsensitiveContains"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "localizedCaseInsensitiveContains"]
+- ["10AirPortPOC9ViewModelC", "AirportData"]
+- ["10AirPortPOC9ViewModelC", "Array"]
+- !private ["10AirPortPOC9ViewModelC", "Bool"]
+- ["10AirPortPOC9ViewModelC", "String"]
+- ["10AirPortPOC9ViewModelC", "ViewModelDelegate"]
+- !private ["10AirPortPOC9ViewModelC", "WebServiceManager"]
+- ["10AirPortPOC9ViewModelC", "airportdata"]
+- ["10AirPortPOC9ViewModelC", "deinit"]
+- ["10AirPortPOC9ViewModelC", "filterBySearchKeywords"]
+- ["10AirPortPOC9ViewModelC", "init"]
+- ["10AirPortPOC9ViewModelC", "viewModelDelegate"]
+- ["10AirPortPOC17ViewModelDelegateP", "didFailed"]
+- ["10AirPortPOC17ViewModelDelegateP", "didReceiveAirportData"]
+- !private ["10AirPortPOC17WebServiceManagerC", "getData"]
+- !private ["10AirPortPOC17WebServiceManagerC", "sharedInstance"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "localizedCaseInsensitiveContains"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localizedCaseInsensitiveContains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "localizedCaseInsensitiveContains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localizedCaseInsensitiveContains"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "localizedCaseInsensitiveContains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "localizedCaseInsensitiveContains"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AirportData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WebServiceManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "airportdata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedCaseInsensitiveContains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewModelDelegate"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "localizedCaseInsensitiveContains"]
+depends-nominal:
+- !private "10AirPortPOC11AirportDataC"
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10AirPortPOC9ViewModelC"
+- "10AirPortPOC17ViewModelDelegateP"
+- !private "10AirPortPOC17WebServiceManagerC"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "79058eb140d5aa6cafc3f6a412e38063"

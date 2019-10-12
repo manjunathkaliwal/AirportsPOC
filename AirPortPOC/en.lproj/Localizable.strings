@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  AirPortPOC
+
+  Created by Manjunath Kaliwal on 10/11/19
+  Copyright © 2019 Manjunath Kaliwal. All rights reserved.
+*/
+"TITLE" = "Most Popular Airports";
+
+"NO_INTERNET" =  "No internet connection";
+
+"NO_DATA"     =  "Data not found";
+
+"APP_NANE"    =  "AirPortPOC";
+
+"PROBLEM"     =  "There was a problem when trying to open";
+
+"OK" =  "OK";
+
+"RUNAWAY_LENGTH" = "Runaway length:  ";
+
+

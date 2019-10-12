@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d1297f2406e157790e2103d82179458a"
+build_time: [1570902703, 982377000]
+inputs:
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/Utilities/Utilities.swift": [1570792414, 96921559]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/Utilities/Constants.swift": [1570902639, 28803502]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/Controllers/AirportsListViewController.swift": [1570902639, 13089611]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/AppDelegate.swift": [1570792414, 127852686]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/Model/AirPortInfoModel.swift": [1570796895, 296041335]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/WebServices/BaseService.swift": [1570795861, 850699669]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/WebServices/WebServiceManager.swift": [1570797023, 777661604]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/CustomCell/AirportsTableViewCell.swift": [1570902639, 41837937]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/CustomCell/CityInfoTableViewCell.swift": [1570799889, 949795820]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/ViewModels/ViewModel.swift": [1570796594, 518014821]
+  "/Users/vvishnud/Downloads/AirPortPOC/AirPortPOC/Controllers/AirPortDetailViewController.swift": [1570902703, 940560141]

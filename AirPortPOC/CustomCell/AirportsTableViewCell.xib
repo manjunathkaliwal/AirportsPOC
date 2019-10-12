@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AirportsTableViewCell" rowHeight="125" id="m0R-9e-oGW" userLabel="Airports Table View Cell" customClass="AirportsTableViewCell" customModule="AirPortPOC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m0R-9e-oGW" id="Xcv-jT-iCd">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="124.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gb-ga-LXW">
+                        <rect key="frame" x="16" y="15" width="313" height="16.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6b-eH-OdJ">
+                        <rect key="frame" x="16" y="46.5" width="313" height="17.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runawaylength" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asY-hH-Ciz">
+                        <rect key="frame" x="16" y="81" width="313" height="17.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="5Gb-ga-LXW" secondAttribute="trailing" constant="8" id="4fi-uf-OX8"/>
+                    <constraint firstAttribute="trailing" secondItem="J6b-eH-OdJ" secondAttribute="trailing" constant="8" id="AJA-eY-jxy"/>
+                    <constraint firstItem="J6b-eH-OdJ" firstAttribute="leading" secondItem="Xcv-jT-iCd" secondAttribute="leading" constant="16" id="HzC-Yw-lFn"/>
+                    <constraint firstAttribute="bottom" secondItem="asY-hH-Ciz" secondAttribute="bottom" constant="26" id="Nsl-Ww-9F8"/>
+                    <constraint firstItem="5Gb-ga-LXW" firstAttribute="top" secondItem="Xcv-jT-iCd" secondAttribute="top" constant="15" id="QJx-GT-FHp"/>
+                    <constraint firstItem="5Gb-ga-LXW" firstAttribute="leading" secondItem="Xcv-jT-iCd" secondAttribute="leading" constant="16" id="TYs-A8-v4Y"/>
+                    <constraint firstItem="asY-hH-Ciz" firstAttribute="leading" secondItem="Xcv-jT-iCd" secondAttribute="leading" constant="16" id="VQL-E1-ldd"/>
+                    <constraint firstAttribute="trailing" secondItem="asY-hH-Ciz" secondAttribute="trailing" constant="8" id="bJ2-GE-isv"/>
+                    <constraint firstItem="asY-hH-Ciz" firstAttribute="top" secondItem="J6b-eH-OdJ" secondAttribute="bottom" constant="17" id="k23-Zc-tAt"/>
+                    <constraint firstItem="J6b-eH-OdJ" firstAttribute="top" secondItem="5Gb-ga-LXW" secondAttribute="bottom" constant="15" id="rqt-a4-kq6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="mE5-lr-NUg"/>
+            <connections>
+                <outlet property="countryLabel" destination="J6b-eH-OdJ" id="xhA-Ib-jJ0"/>
+                <outlet property="nameLabel" destination="5Gb-ga-LXW" id="T9T-g3-3b1"/>
+                <outlet property="runawayLabel" destination="asY-hH-Ciz" id="z8J-Qu-g9R"/>
+            </connections>
+            <point key="canvasLocation" x="-70.28985507246378" y="-24.441964285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

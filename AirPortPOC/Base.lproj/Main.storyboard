@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qc8-zM-Z7n">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Most Popular Airports-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="NewsListViewController" id="BYZ-38-t0r" customClass="AirportsListViewController" customModule="AirPortPOC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Iza-EB-d0Z">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="oP5-nK-ytG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="6wQ-Wc-acD"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="vgN-3w-zCL">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vgN-3w-zCL" firstAttribute="centerX" secondItem="h2z-Jj-61p" secondAttribute="centerX" id="1tl-4d-J3I"/>
+                            <constraint firstItem="h2z-Jj-61p" firstAttribute="trailing" secondItem="Iza-EB-d0Z" secondAttribute="trailing" id="MKd-64-yyR"/>
+                            <constraint firstItem="Iza-EB-d0Z" firstAttribute="leading" secondItem="h2z-Jj-61p" secondAttribute="leading" id="TTc-QZ-YW9"/>
+                            <constraint firstItem="h2z-Jj-61p" firstAttribute="bottom" secondItem="Iza-EB-d0Z" secondAttribute="bottom" id="l5J-8g-NV2"/>
+                            <constraint firstItem="vgN-3w-zCL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rhq-pH-bly"/>
+                            <constraint firstItem="Iza-EB-d0Z" firstAttribute="top" secondItem="h2z-Jj-61p" secondAttribute="top" id="xGZ-Da-sdI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h2z-Jj-61p"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Most Popular Airports" id="SJe-1i-CgD">
+                        <barButtonItem key="leftBarButtonItem" image="Hamburger" id="J96-J7-giF">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="more" id="sKL-su-Fjb">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="search" id="Wad-pT-wi0">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="didTapSearchButtonItem:" destination="BYZ-38-t0r" id="qfq-tW-ih8"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="listTableView" destination="Iza-EB-d0Z" id="b7S-iy-Bp1"/>
+                        <outlet property="loadingIndicator" destination="vgN-3w-zCL" id="HRl-bb-Ly2"/>
+                        <segue destination="X9K-rf-M2l" kind="show" identifier="AirPortDetailViewController" id="zlE-w7-RUr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="-66"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KMg-XO-3DZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qc8-zM-Z7n" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WZD-FE-7hk">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.30980392156862746" green="0.88235294117647056" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hmb-EL-wZu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcS-hy-n00" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="-311"/>
+        </scene>
+        <!--Air Port Detail View Controller-->
+        <scene sceneID="ShT-O4-ffj">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X9K-rf-M2l" customClass="AirPortDetailViewController" customModule="AirPortPOC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wpL-Ud-JdW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JYa-fL-1Ms">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="X9K-rf-M2l" id="B4N-0g-rys"/>
+                                    <outlet property="delegate" destination="X9K-rf-M2l" id="dhd-L5-zsf"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iTb-8j-xC6" firstAttribute="bottom" secondItem="JYa-fL-1Ms" secondAttribute="bottom" id="Wpe-My-GG4"/>
+                            <constraint firstItem="iTb-8j-xC6" firstAttribute="trailing" secondItem="JYa-fL-1Ms" secondAttribute="trailing" id="f3v-TK-bM5"/>
+                            <constraint firstItem="JYa-fL-1Ms" firstAttribute="leading" secondItem="iTb-8j-xC6" secondAttribute="leading" id="hmN-FZ-i9N"/>
+                            <constraint firstItem="JYa-fL-1Ms" firstAttribute="top" secondItem="iTb-8j-xC6" secondAttribute="top" id="y7m-BP-4ct"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iTb-8j-xC6"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="qTH-Hu-JN6"/>
+                    <connections>
+                        <outlet property="airportsTableView" destination="JYa-fL-1Ms" id="Nau-8p-k9R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fl-l3-Enb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2946" y="-183"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hamburger" width="26.5" height="22"/>
+        <image name="more" width="7.5" height="24"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>

@@ -1,0 +1,564 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPStatusCodes"
+- "BaseService"
+provides-nominal:
+- "10AirPortPOC15HTTPStatusCodesO"
+- "10AirPortPOC11BaseServiceC"
+provides-member:
+- ["10AirPortPOC15HTTPStatusCodesO", ""]
+- ["10AirPortPOC11BaseServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseService"
+- "CastingPrecedence"
+- !private "Constants"
+- "Data"
+- "FloatLiteralType"
+- !private "Foundation"
+- "HTTPStatusCodes"
+- !private "HTTPURLResponse"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONSerialization"
+- "NSData"
+- "NSError"
+- "NSObject"
+- !private "OperationQueue"
+- "ServiceIdentifier"
+- "ServiceType"
+- !private "ServiceUrl"
+- "String"
+- "StringLiteralType"
+- !private "TimeInterval"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "URLSessionConfiguration"
+- !private "URLSessionDelegate"
+- !private "Utilities"
+- "Void"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["10AirPortPOC11BaseServiceC", "AnyObject"]
+- !private ["10AirPortPOC11BaseServiceC", "Constants"]
+- ["10AirPortPOC11BaseServiceC", "Data"]
+- !private ["10AirPortPOC11BaseServiceC", "Foundation"]
+- !private ["10AirPortPOC11BaseServiceC", "HTTPURLResponse"]
+- !private ["10AirPortPOC11BaseServiceC", "JSONSerialization"]
+- ["10AirPortPOC11BaseServiceC", "NSData"]
+- ["10AirPortPOC11BaseServiceC", "NSError"]
+- !private ["10AirPortPOC11BaseServiceC", "OperationQueue"]
+- ["10AirPortPOC11BaseServiceC", "ServiceIdentifier"]
+- ["10AirPortPOC11BaseServiceC", "ServiceType"]
+- !private ["10AirPortPOC11BaseServiceC", "ServiceUrl"]
+- ["10AirPortPOC11BaseServiceC", "String"]
+- !private ["10AirPortPOC11BaseServiceC", "TimeInterval"]
+- !private ["10AirPortPOC11BaseServiceC", "URL"]
+- !private ["10AirPortPOC11BaseServiceC", "URLRequest"]
+- !private ["10AirPortPOC11BaseServiceC", "URLSession"]
+- !private ["10AirPortPOC11BaseServiceC", "URLSessionConfiguration"]
+- !private ["10AirPortPOC11BaseServiceC", "URLSessionDelegate"]
+- !private ["10AirPortPOC11BaseServiceC", "Utilities"]
+- ["10AirPortPOC11BaseServiceC", "Void"]
+- ["10AirPortPOC11BaseServiceC", "deinit"]
+- ["10AirPortPOC11BaseServiceC", "init"]
+- !private ["10AirPortPOC11BaseServiceC", "print"]
+- ["10AirPortPOC11BaseServiceC", "requestBody"]
+- ["10AirPortPOC11BaseServiceC", "serviceIdentifier"]
+- ["10AirPortPOC11BaseServiceC", "serviceType"]
+- ["10AirPortPOC11BaseServiceC", "serviceURL"]
+- ["10AirPortPOC11BaseServiceC", "start"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "Constants"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "ServiceUrl"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- !private ["s7CVarArgP", "Utilities"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "convertToDict"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "requestBody"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "serviceIdentifier"]
+- !private ["s7CVarArgP", "serviceType"]
+- !private ["s7CVarArgP", "serviceURL"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "timeoutIntervalForRequest"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10AirPortPOC9ConstantsV", "kRequestTimeOut"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- !private ["s28CustomDebugStringConvertibleP", "GET"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "ServiceUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "Utilities"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "convertToDict"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "requestBody"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceType"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceURL"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutIntervalForRequest"]
+- !private ["s17CustomReflectableP", "GET"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "ServiceUrl"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- !private ["s23CustomStringConvertibleP", "Utilities"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "convertToDict"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "requestBody"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "serviceIdentifier"]
+- !private ["s23CustomStringConvertibleP", "serviceType"]
+- !private ["s23CustomStringConvertibleP", "serviceURL"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "timeoutIntervalForRequest"]
+- !private ["Se", "GET"]
+- !private ["Se", "init"]
+- !private ["Se", "rawValue"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["SE", "GET"]
+- !private ["SE", "init"]
+- !private ["SE", "rawValue"]
+- ["SQ", "=="]
+- !private ["SQ", "Constants"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "OperationQueue"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "ServiceUrl"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- !private ["SQ", "URLSession"]
+- !private ["SQ", "URLSessionConfiguration"]
+- !private ["SQ", "Utilities"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "convertToDict"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "default"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "prettyPrinted"]
+- !private ["SQ", "print"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "requestBody"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "serviceIdentifier"]
+- !private ["SQ", "serviceType"]
+- !private ["SQ", "serviceURL"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "timeoutIntervalForRequest"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "GET"]
+- !private ["s23ExpressibleByNilLiteralP", "rawValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "init"]
+- ["10AirPortPOC15HTTPStatusCodesO", "=="]
+- ["10AirPortPOC15HTTPStatusCodesO", "BadRequest"]
+- ["10AirPortPOC15HTTPStatusCodesO", "InternalServerError"]
+- ["10AirPortPOC15HTTPStatusCodesO", "OK"]
+- ["10AirPortPOC15HTTPStatusCodesO", "RawValue"]
+- ["10AirPortPOC15HTTPStatusCodesO", "_Default_RawValue"]
+- ["10AirPortPOC15HTTPStatusCodesO", "_rawHashValue"]
+- ["10AirPortPOC15HTTPStatusCodesO", "deinit"]
+- ["10AirPortPOC15HTTPStatusCodesO", "hash"]
+- ["10AirPortPOC15HTTPStatusCodesO", "hashValue"]
+- ["10AirPortPOC15HTTPStatusCodesO", "init"]
+- ["10AirPortPOC15HTTPStatusCodesO", "rawValue"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- ["SH", "=="]
+- !private ["SH", "Constants"]
+- !private ["SH", "GET"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "OperationQueue"]
+- ["SH", "RawValue"]
+- !private ["SH", "ServiceUrl"]
+- !private ["SH", "String"]
+- !private ["SH", "TimeInterval"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- !private ["SH", "URLSession"]
+- !private ["SH", "URLSessionConfiguration"]
+- !private ["SH", "Utilities"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "convertToDict"]
+- !private ["SH", "data"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "default"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "print"]
+- ["SH", "rawValue"]
+- !private ["SH", "requestBody"]
+- !private ["SH", "resume"]
+- !private ["SH", "serviceIdentifier"]
+- !private ["SH", "serviceType"]
+- !private ["SH", "serviceURL"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "timeoutIntervalForRequest"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "timeoutIntervalForRequest"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Constants"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "Foundation"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "NSData"]
+- ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "ServiceIdentifier"]
+- ["So8NSObjectC", "ServiceType"]
+- !private ["So8NSObjectC", "ServiceUrl"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- !private ["So8NSObjectC", "URLSessionDelegate"]
+- !private ["So8NSObjectC", "Utilities"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "convertToDict"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "requestBody"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "serviceIdentifier"]
+- ["So8NSObjectC", "serviceType"]
+- ["So8NSObjectC", "serviceURL"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "timeoutIntervalForRequest"]
+- !private ["So8NSObjectP", "Constants"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "OperationQueue"]
+- !private ["So8NSObjectP", "ServiceUrl"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "TimeInterval"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- !private ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "URLSessionConfiguration"]
+- !private ["So8NSObjectP", "Utilities"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "convertToDict"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "requestBody"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "serviceIdentifier"]
+- !private ["So8NSObjectP", "serviceType"]
+- !private ["So8NSObjectP", "serviceURL"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "timeoutIntervalForRequest"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["Sj", "init"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["Sq", "GET"]
+- !private ["Sq", "rawValue"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- !private ["SY", "GET"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "prettyPrinted"]
+- ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["10AirPortPOC11ServiceTypeO", "GET"]
+- !private ["10AirPortPOC11ServiceTypeO", "deinit"]
+- !private ["10AirPortPOC11ServiceTypeO", "rawValue"]
+- !private ["10AirPortPOC10ServiceUrlV", "BaseURL"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So25NSURLSessionConfigurationC", "timeoutIntervalForRequest"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["10AirPortPOC9UtilitiesC", "convertToDict"]
+- !private ["So20NSJSONWritingOptionsV", "prettyPrinted"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ServiceUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Utilities"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convertToDict"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeoutIntervalForRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "GET"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s26_OptionalNilComparisonTypeV", "GET"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "10AirPortPOC11BaseServiceC"
+- !private "SK"
+- !private "SB"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10AirPortPOC9ConstantsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "10AirPortPOC15HTTPStatusCodesO"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "So16NSOperationQueueC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "10AirPortPOC11ServiceTypeO"
+- !private "10AirPortPOC10ServiceUrlV"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "10AirPortPOC9UtilitiesC"
+- !private "So20NSJSONWritingOptionsV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/vvishnud/Desktop/Xcod10.3/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2ebe88103f98a154ff3ad8d6d476cc76"
